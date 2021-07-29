@@ -1,3 +1,6 @@
+# Changes from Original
+This is the version that does not parse for inline anki cards. Useful if you use :: for dataview fields
+
 # Flashcards
 
 [![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/reuseman/flashcards-obsidian?style=for-the-badge&sort=semver)](https://github.com/reuseman/flashcards-obsidian/releases/latest)
