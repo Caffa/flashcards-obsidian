@@ -35,7 +35,7 @@ export class Parser {
 
         note = this.substituteObsidianLinks(`[[${note}]]`, vault)
         cards = cards.concat(this.generateCardsWithTag(file, headings, deck, vault, note, globalTags))
-        cards = cards.concat(this.generateInlineCards(file, headings, deck, vault, note, globalTags))
+        //cards = cards.concat(this.generateInlineCards(file, headings, deck, vault, note, globalTags))
         cards = cards.concat(this.generateSpacedCards(file, headings, deck, vault, note, globalTags))
         cards.sort((a, b) => a.endOffset - b.endOffset)
 
